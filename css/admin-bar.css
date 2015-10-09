@@ -1,0 +1,34 @@
+
+/**
+ * Admin Bar CSS
+ *
+ * @package     Site Move Monitor
+ * @subpackage  Admin Bar
+ */
+
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-icon-only .ab-icon-text {
+	display: none;
+}
+
+#wpadminbar > #wp-toolbar > #wp-admin-bar-root-default #wp-admin-bar-site_move_monitor.site-move-monitor-icon-only .ab-icon {
+	margin-right: 0px;
+}
+
+#wpadminbar #wp-admin-bar-site_move_monitor .ab-icon:before {
+	content: '\f503';
+	top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved > .ab-item,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved #wp-admin-bar-site_move_monitor_alerts {
+	background-color: #c00;
+}
+
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved .ab-icon:before,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved > .ab-item:hover,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved > .ab-item:hover .ab-icon:before,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved.hover > .ab-item,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved.hover > .ab-item .ab-icon:before,
+#wpadminbar #wp-admin-bar-site_move_monitor.site-move-monitor-moved #wp-admin-bar-site_move_monitor_alerts a:hover {
+	color: #fff;
+}

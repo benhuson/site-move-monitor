@@ -1,0 +1,69 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Move Monitor\n"
+"POT-Creation-Date: 2015-10-09 12:53+0100\n"
+"PO-Revision-Date: 2015-09-29 07:58+0100\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin-bar.php:80 includes/admin.php:28 includes/admin.php:95
+msgid "Site Move Monitor"
+msgstr "Site Move Monitor"
+
+#: includes/admin-bar.php:134
+#, php-format
+msgid "%s Changed"
+msgstr ""
+
+#: includes/admin.php:48
+msgid "Your current site configuration has been saved."
+msgstr ""
+
+#: includes/admin.php:97
+msgid "Site Move Monitor checks your site hosting and configuration and monitors for changes in the setup that may indicate that your site has moved. This can help alert you to a change in environment. For example moving a site from a staging to a production environment."
+msgstr ""
+
+#: includes/admin.php:99
+msgid "Current Configuration"
+msgstr ""
+
+#: includes/admin.php:123
+msgid "Update Current Configuration"
+msgstr ""
+
+#: includes/admin.php:125
+msgid "Configuration is up-to-date"
+msgstr ""
+
+#: includes/checker.php:177
+msgid "IP Address"
+msgstr ""
+
+#: includes/checker.php:178
+msgid "File Path"
+msgstr ""
+
+#: includes/checker.php:179
+msgid "URL"
+msgstr ""
+
+#: includes/checker.php:180
+msgid "Database"
+msgstr ""
+
+#: includes/checker.php:181
+msgid "Database Host"
+msgstr ""
+
+#: includes/checker.php:182
+msgid "Database Table Prefix"
+msgstr ""
